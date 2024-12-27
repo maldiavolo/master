@@ -1,1 +1,5 @@
+# Includes China and Hong Kong
 sh /jffs/scripts/firewall ban country "by ru cn kp hk ir pk sy ye kg kz az af"
+
+# Non-Chinese countries
+sh /jffs/scripts/firewall ban country "by ru kp ir pk sy ye kg kz az af"  
